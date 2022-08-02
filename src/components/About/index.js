@@ -1,16 +1,13 @@
 import { useEffect, useState } from 'react'
-import {
-  faAngular,
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faReact,
-} from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
+import AliceCarousel from 'react-alice-carousel';
+import "react-alice-carousel/lib/scss/alice-carousel.scss";
+import image1 from '../../assets/images/july.jpg'
+import image2 from '../../assets/images/toshandi.jpg'
+import image3 from '../../assets/images/toshandwife.jpg'
+import image4 from '../../assets/images/toshy.jpg'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -33,7 +30,7 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
+            I'm very new full-stack developer looking for a role in
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
@@ -42,35 +39,20 @@ const About = () => {
             improving my chops one design problem at a time.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            I'm an experienced customer-oriented individual with a strong work ethic,
+            ability to escalate issues appropriately and a highly efficient multi-
+            tasker with a strong sense of priority management.
           </p>
         </div>
-
-        <div className="stage-cube-cont">
-          <div className="cubespinner">
-            <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
-            </div>
-            <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-            </div>
-            <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-            </div>
-            <div className="face4">
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-            </div>
-            <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-            </div>
-            <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-            </div>
-          </div>
-        </div>
       </div>
+      <AliceCarousel autoPlay='true' autoPlayInterval="3000" disableButtonsControls='true' disableDotsControls='true' animationType='fadeout' infinite='true' >
+        <img src={image1} className="sliderimg" />
+        <img src={image2} className="sliderimg" />
+        <img src={image3} className="sliderimg" />
+        <img style={{marginLeft: '55%'}} src={image4} className="sliderimg" />
+      </AliceCarousel>
+
+
       <Loader type="pacman" />
     </>
   )

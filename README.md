@@ -1,72 +1,80 @@
-YouTube Tutorial on how I built this portfolio => https://youtu.be/ESHaail1eGc
+![badge](https://img.shields.io/badge/License-mit-blue)
 
-# Getting Started with Create React App
+## Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have recently finished a Full Stack Web Dev course through U of Washington
+I WANT show a potential employer my portfolio page
+SO THAT they can assess whether I'm a good candidate for an open position
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Test](#test)
+- [Deployed](#deployed)
+- [Tools](#tools)
+- [Research](#research)
+- [Questions](#questions)
+- [License](#license)
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Portfolio page I created with the help from a [YouTube](https://www.youtube.com/watch?v=bmpI252DmiI&t=4391s) video from freeCodeCamp.org
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Test
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+No testing information available for this application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployed
 
-### `npm run eject`
+Click [here]() to view the deployed application. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [GitHub Repository](https://github.com/Jeff-T-Schmidt/react-portfolio-website)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshot of the application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Screenshot](https://user-images.githubusercontent.com/101135703/171913965-ea290ade-8bb0-4b55-b929-94de68a9d568.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tools
 
-## Learn More
+- React
+- FontAwesome
+- SCSS
+- Animate.css
+- GSAP
+- DrawSVG
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Research
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [create-react-app - NPM](https://www.npmjs.com/package/create-react-app)
+- [FontAwesome - NPM](https://www.npmjs.com/package/@fortawesome/react-fontawesome)
 
-### Code Splitting
+## Questions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [GitHub Profile](https://github.com/Jeff-T-Schmidt)
+- [GitHub Repository](https://github.com/Jeff-T-Schmidt/react-portfolio-website)
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![badge](https://img.shields.io/badge/License-mit-blue)
 
-### Making a Progressive Web App
+© 2022 Jeff Schmidt and Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved. Permission is hereby
+granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify,
+merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
