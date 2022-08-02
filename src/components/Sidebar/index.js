@@ -1,5 +1,6 @@
 import './index.scss'
 import LogoS from '../../assets/images/logo-s.png'
+// Add picture of me in the top left corner
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -25,7 +26,7 @@ const Sidebar = () => {
         <NavLink activeclassname="active" className="about-link" to="/about">
           <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
         </NavLink>
-        <NavLink activeclassname="active" className="portfolio-link" to="/portfolio">
+        <NavLink activeclassname="active" className="portfolio-link" to="/projects">
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
         </NavLink>
         <NavLink
