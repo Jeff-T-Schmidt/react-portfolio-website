@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/Jeff_S_OG_Black_2022-01.png'
@@ -64,13 +64,16 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={22}
+              idx={20}
             />
           </h1>
           <h2>Full Stack Developer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
+          <NavLink style={{marginLeft: "80px"}} to='/contact' onClick={() => window.open("https://docs.google.com/document/d/1J2W-EwZhN78MEM4jtZG55BTixvjfRRuGzd62zhy7-0g/edit?usp=sharing")} className='flat-button'>
+            RESUME
+          </NavLink>
         </div>
         <Logo />
       </div>
