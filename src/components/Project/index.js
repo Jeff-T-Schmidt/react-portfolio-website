@@ -29,13 +29,21 @@ const Project = () => {
                         />
                     </h1>
                     <div className="project-container">
-                        <a href='https://jeff-t-schmidt.github.io/Web-API-Quiz/' target="_blank" rel="noopener noreferrer"><img src={image1} className="projectImages"/></a>
-                        <a href="https://jeff-t-schmidt.github.io/passwordGen/" target="_blank" rel="noopener noreferrer"> <img src={image2} className="projectImages"/></a>
-                        <a href="https://hidden-shore-04969.herokuapp.com/home" target="_blank" rel="noopener noreferrer" > <img src={image3} className="projectImages"/></a>
+                        <a href='https://jeff-t-schmidt.github.io/Web-API-Quiz/' target="_blank" rel="noopener noreferrer"><img src={image1} className="projectImages" /></a>
+                        <a href="https://jeff-t-schmidt.github.io/passwordGen/" target="_blank" rel="noopener noreferrer"> <img src={image2} className="projectImages" /></a>
+                        <a href="https://hidden-shore-04969.herokuapp.com/home" target="_blank" rel="noopener noreferrer" > <img src={image3} className="projectImages" /></a>
                         <a href="https://jeff-t-schmidt.github.io/First-Project/" target="_blank" rel="noopener noreferrer"> <img src={image4} className="projectImages" /></a>
                     </div>
+                    <h3>
+                    <AnimatedLetters
+                            letterClass={letterClass}
+                            strArray={['(','S','e','c','t','i','o','n', ' ', 'i', 'n', '-', 'w', 'o', 'r', 'k',')']}
+                            idx={15}>
+                    </AnimatedLetters>
+                    </h3>
                 </div>
             </div>
+
             <Loader type="pacman" />
         </>
     )
