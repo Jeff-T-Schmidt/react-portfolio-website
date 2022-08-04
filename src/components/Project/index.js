@@ -38,7 +38,7 @@ const Project = () => {
                     <AnimatedLetters
                             letterClass={letterClass}
                             strArray={['(','S','e','c','t','i','o','n', ' ', 'i', 'n', '-', 'w', 'o', 'r', 'k',')']}
-                            idx={15}>
+                            idx={10}>
                     </AnimatedLetters>
                     </h3>
                 </div>
