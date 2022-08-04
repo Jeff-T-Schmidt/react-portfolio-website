@@ -30,13 +30,13 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very new full-stack developer looking for a role in
+            I'm a very new full-stack developer looking for a role in an
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
           <p align="LEFT">
             I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            improving my code one design problem at a time.
           </p>
           <p>
             I'm an experienced customer-oriented individual with a strong work ethic,

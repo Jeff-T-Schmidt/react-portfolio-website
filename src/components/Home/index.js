@@ -71,7 +71,7 @@ const Home = () => {
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
-          <NavLink style={{marginLeft: "80px"}} to='/contact' onClick={() => window.open("https://docs.google.com/document/d/1J2W-EwZhN78MEM4jtZG55BTixvjfRRuGzd62zhy7-0g/edit?usp=sharing")} className='flat-button'>
+          <NavLink style={{marginLeft: "80px"}} to='/' onClick={() => window.open("https://docs.google.com/document/d/1J2W-EwZhN78MEM4jtZG55BTixvjfRRuGzd62zhy7-0g/edit?usp=sharing")} className='flat-button'>
             RESUME
           </NavLink>
         </div>
