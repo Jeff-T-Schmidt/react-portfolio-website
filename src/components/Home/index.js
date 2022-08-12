@@ -1,10 +1,14 @@
 import { useEffect, useState } from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, withRouter } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/Jeff_S_OG_Black_2022-01.png'
 import Logo from './Logo'
 import './index.scss'
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-PNHVXJRZN8";
+ReactGA.initialize(TRACKING_ID);
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -34,6 +38,10 @@ const Home = () => {
       setLetterClass('text-animate-hover')
     }, 4000)
   }, [])
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   return (
     <>
@@ -83,4 +91,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default withRouter(Home)
