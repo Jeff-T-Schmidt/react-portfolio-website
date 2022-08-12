@@ -1,7 +1,8 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet, withRouter } from 'react-router-dom'
 import Sidebar from '../Sidebar/'
 import './index.scss'
 import ReactGA from 'react-ga';
+
 const TRACKING_ID = "G-PNHVXJRZN8";
 ReactGA.initialize(TRACKING_ID);
 
@@ -27,4 +28,4 @@ const Layout = () => {
   )
 }
 
-export default Layout
+export default withRouter(Layout)
