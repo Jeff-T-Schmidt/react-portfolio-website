@@ -10,8 +10,18 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faUser, faEnvelope, faSuitcase } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
+import ReactGA from 'react-ga'
+
+const useGAEventsTracker = (category = "Event Category") => {
+  const trackEvent = (action = 'action', label = 'label') => {
+    ReactGA.event({ category, action, label })
+  };
+  return trackEvent
+}
 
 const Sidebar = () => {
+  const GAEventsTracker = useGAEventsTracker("External Links");
+
   return (
     <div className="nav-bar">
       <Link className="logo" to="/">
@@ -41,6 +51,7 @@ const Sidebar = () => {
             href="https://www.linkedin.com/in/jeff-t-schmidt"
             target="_blank"
             rel="noreferrer"
+            onClick={e => GAEventsTracker("LinkedIn")}
           >
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
           </a>
@@ -50,6 +61,7 @@ const Sidebar = () => {
             href="https://github.com/Jeff-T-Schmidt"
             target="_blank"
             rel="noreferrer"
+            onClick={e => GAEventsTracker("GitHub")}
           >
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
           </a>
@@ -59,12 +71,18 @@ const Sidebar = () => {
             href="https://www.youtube.com/c/WebDevSimplified"
             rel="noreferrer"
             target="_blank"
+            onClick={e => GAEventsTracker("YouTube")}
           >
             <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
           </a>
         </li>
         <li>
-          <a href="https://discord.com/users/id/269991981541883907" rel="noreferrer" target="_blank">
+          <a
+            href="https://discord.com/users/id/269991981541883907"
+            rel="noreferrer"
+            target="_blank"
+            onClick={e => GAEventsTracker("Discord")}
+          >
             <FontAwesomeIcon icon={faDiscord} color="#4d4d4e" />
           </a>
         </li>
