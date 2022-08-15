@@ -5,6 +5,7 @@
   display: flex;
   // justify-content: space-around;
   align-items: center;
+  margin-bottom: -50px;
 
 }
 .projectImages {
@@ -21,7 +22,41 @@ h3 {
   margin-top: 0;
   position: relative;
   margin-bottom: 40px;
-  left: 110%;
-
-
+  left: 100%;
+}
+.titles{
+  margin-bottom: 3%;
+}
+.title1 {
+  position: relative;
+  color: #fff;
+  left: 23%;
+  width: 100px;
+  font-size: 20px;
+ 
+  
+}
+.title2 {
+  position: relative;
+  color: #fff;
+  left: 70%;
+  width: 150px;
+  font-size: 20px;
+  
+}
+.title3 {
+  position: relative;
+  color: #fff;
+  left: 115%;
+  width: 100px;
+  font-size: 20px;
+ 
+}
+.title4 {
+  position: relative;
+  color: #fff;
+  left: 165%;
+  width: 100px;
+  font-size: 20px;
+  
 }

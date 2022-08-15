@@ -34,12 +34,18 @@ const Project = () => {
                         <a href="https://hidden-shore-04969.herokuapp.com/home" target="_blank" rel="noopener noreferrer" > <img src={image3} className="projectImages" /></a>
                         <a href="https://jeff-t-schmidt.github.io/First-Project/" target="_blank" rel="noopener noreferrer"> <img src={image4} className="projectImages" /></a>
                     </div>
+                    <div className='titles'>
+                        <a href='https://github.com/Jeff-T-Schmidt/Web-API-Quiz' className='title1' target="_blank" rel="noopener noreferrer">Code Quiz</a>
+                        <a href='https://github.com/Jeff-T-Schmidt/passwordGen' className='title2' target="_blank" rel="noopener noreferrer">Password Gen</a>
+                        <a href='https://github.com/Pablito14/Lost-Pet-Project' className='title3' target="_blank" rel="noopener noreferrer">Pet Finder</a>
+                        <a href='https://github.com/Jeff-T-Schmidt/First-Project' className='title4' target="_blank" rel="noopener noreferrer">Cocktails</a>
+                    </div>
                     <h3>
-                    <AnimatedLetters
+                        <AnimatedLetters
                             letterClass={letterClass}
-                            strArray={['(','S','e','c','t','i','o','n', ' ', 'i', 'n', '-', 'w', 'o', 'r', 'k',')']}
+                            strArray={['(', 'S', 'e', 'c', 't', 'i', 'o', 'n', ' ', 'i', 'n', '-', 'w', 'o', 'r', 'k', ')']}
                             idx={10}>
-                    </AnimatedLetters>
+                        </AnimatedLetters>
                     </h3>
                 </div>
             </div>
