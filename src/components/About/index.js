@@ -29,16 +29,18 @@ const About = () => {
               idx={15}
             />
           </h1>
-          <p>
+          <p style={{fontSize: '20px'}}>
             I'm a very new full-stack developer looking for a role in an
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
-          <p align="LEFT">
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my code one design problem at a time.
+          <p align="LEFT"style={{fontSize: '20px'}}>
+            After completion of the Full Stack Web Dev course from University of Washington 
+            I have a good working knowledge of: HTML/CSS, JavaScript, JQuery, Bootstrap. I particularly 
+            enjoyed learning about and creating RESTful APIs, React.JS applications, creating MySQL databases and 
+            running server side code with Node.js.
           </p>
-          <p>
+          <p style={{fontSize: '20px'}}>
             I'm an experienced customer-oriented individual with a strong work ethic,
             ability to escalate issues appropriately and a highly efficient multi-
             tasker with a strong sense of priority management.
