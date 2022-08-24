@@ -9,4 +9,10 @@
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
    }
-   
+
+   @media only screen and (min-width: 300px) and (max-width: 1476px) {
+    .sliderimg {
+        display: none;
+        visibility: hidden;
+    }
+   }

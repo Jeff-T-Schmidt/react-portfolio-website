@@ -1,34 +1,38 @@
-.logo-container {
-  z-index: 0;
-  width: 400px;
-  height: 609px;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  right: 15%;
-  bottom: 0;
-  left: auto;
-  margin: auto;
+@media (min-width: 1000px) {
 
-  svg {
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    transform: rotateZ(30deg) !important;
-  }
 
-  .solid-logo {
-    position: absolute;
-    top: -7%;
-    right: auto;
-    bottom: auto;
-    left: -35px;
-    margin: auto;
-    width: 119%;
-    height: 119%;
+  .logo-container {
+    z-index: 0;
+    width: 400px;
+    height: 609px;
     opacity: 0;
-    transform: rotateZ(30deg) !important;
-    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 15%;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+
+    svg {
+      width: 100%;
+      height: auto;
+      bottom: 0;
+      transform: rotateZ(30deg) !important;
+    }
+
+    .solid-logo {
+      position: absolute;
+      top: -7%;
+      right: auto;
+      bottom: auto;
+      left: -35px;
+      margin: auto;
+      width: 119%;
+      height: 119%;
+      opacity: 0;
+      transform: rotateZ(30deg) !important;
+      z-index: 1;
+    }
   }
 }
 
@@ -38,14 +42,12 @@
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) {
- .solid-logo, .logo-container {
-  visibility: hidden;
-  display: none;
- }
-}
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
+@media only screen and (min-width: 300px) and (max-width: 1000px) {
 
+  .solid-logo,
+  .logo-container {
+    visibility: hidden;
+    display: none;
+  }
 }

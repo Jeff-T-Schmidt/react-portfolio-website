@@ -81,7 +81,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@media only screen and (min-width: 300px) and (max-width: 1000px) {
   .text-zone {
     left: 30% !important;
   }
@@ -95,3 +95,4 @@
     margin-left: 0 !important;
   }
 }
+

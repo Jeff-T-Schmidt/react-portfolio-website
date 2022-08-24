@@ -29,6 +29,10 @@
       &:first-child {
         margin-left: 0;
       }
+      @media only screen and (min-width: 300px) and (max-width: 1000px) {
+        width: 100%;
+        margin-left: 0px;
+      }
     }
   }
 
@@ -79,11 +83,16 @@
 }
 
 .map-wrap {
-  background:  #115173;
+  background: #115173;
   float: right;
   width: 53%;
   height: 115%;
   margin-top: -3%;
+
+  @media only screen and (min-width: 300px) and (max-width: 1000px) {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 .leaflet-container {
@@ -93,6 +102,11 @@
   opacity: 0;
   animation: backInRight 1s 1.2s;
   animation-fill-mode: forwards;
+
+  @media only screen and (min-width: 300px) and (max-width: 1000px) {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 .info-map {
@@ -110,6 +124,11 @@
   opacity: 0;
   animation: fadeIn 1s 1.5s;
   animation-fill-mode: forwards;
+
+  @media only screen and (min-width: 300px) and (max-width: 1000px) {
+    display: none;
+    visibility: hidden;
+  }
 
   span {
     font-size: 16px;
