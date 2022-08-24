@@ -36,3 +36,16 @@
   stroke: #030304;
   stroke-width: 10;
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+ .solid-logo, .logo-container {
+  visibility: hidden;
+  display: none;
+ }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}

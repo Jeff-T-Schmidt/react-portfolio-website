@@ -81,4 +81,17 @@
   }
 }
 
-
+@media (max-width: 576px) {
+  .text-zone {
+    left: 30% !important;
+  }
+  h1 {
+    font-size: 20px !important;
+  }
+  .text-animate-hover {
+    min-width: 5px !important;
+  }
+  .resume {
+    margin-left: 0 !important;
+  }
+}
